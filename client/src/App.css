@@ -1,0 +1,23 @@
+.App {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.inputWrapper {
+  margin: 20px 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+}
